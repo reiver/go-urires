@@ -24,7 +24,6 @@ URNs express **names**, such as:
 * `urn:hash::sha256:YBJV4S7CW6P73EZJCMCUG27YREYU4SR7V3AF5T74XN67GGWZ4UNA====`
 * `urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
 * `magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
-```
 
 URCs express **characteristics** — meta-data — about a URL, or URN.
 
