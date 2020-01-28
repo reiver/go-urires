@@ -79,6 +79,46 @@ Or:
 
 Etc.
 
+## Resolution Services: Examples
+
+Some more concrete examples — with example queries — is:
+* `/uri-res/N2L?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Ls?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2R?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Rs?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2C?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Cs?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Ns?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/L2Ns?http://www.example.com/apple/banana/cherry.html`
+* `/uri-res/L2Ls?http://www.example.com/apple/banana/cherry.html`
+* `/uri-res/L2C?http://www.example.com/apple/banana/cherry.html`
+
+Which, of course in practice, would be on some HTTP or HTTPS based URL, such as:
+* `http://www.example.com/uri-res/N2L?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://www.example.com/uri-res/N2Ls?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://www.example.com/uri-res/N2R?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://www.example.com/uri-res/N2Rs?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://www.example.com/uri-res/N2C?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://www.example.com/uri-res/N2Cs?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://www.example.com/uri-res/N2Ns?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://www.example.com/uri-res/L2Ns?http://www.example.com/apple/banana/cherry.html`
+* `http://www.example.com/uri-res/L2Ls?http://www.example.com/apple/banana/cherry.html`
+* `http://www.example.com/uri-res/L2C?http://www.example.com/apple/banana/cherry.html`
+
+Or:
+* `http://something.test/uri-res/N2L?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://something.test/uri-res/N2Ls?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://something.test/uri-res/N2R?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://something.test/uri-res/N2Rs?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://something.test/uri-res/N2C?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://something.test/uri-res/N2Cs?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://something.test/uri-res/N2Ns?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `http://something.test/uri-res/L2Ns?http://www.example.com/apple/banana/cherry.html`
+* `http://something.test/uri-res/L2Ls?http://www.example.com/apple/banana/cherry.html`
+* `http://something.test/uri-res/L2C?http://www.example.com/apple/banana/cherry.html`
+
+Etc.
+
 ## See Also
 * [IETF RFC-2169: A Trivial Convention for using HTTP in URN Resolution](https://tools.ietf.org/html/rfc2169) (June 1997)
 * [HTTP Extensions for a Content-Addressable Web](http://lists.w3.org/Archives/Public/www-talk/2001NovDec/0090.html) (October 2001)
