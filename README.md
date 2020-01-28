@@ -217,6 +217,38 @@ http://www.example.com/path/to/file.txt
 http://something.test/mirror/thefile.txt
 ```
 
+Other formats could be used to return the **locations** (as alternatives to `text/uri-list`), especially if the HTTP client specifies alternative formats using the HTTP `Accept` header.
+
+For example:
+
+Example HTTP Request:
+```
+GET /uri-res/N2Ls?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a HTTP/1.1
+Host: www.example.com
+Accept: text/html
+```
+
+Example HTTP Response:
+```
+HTTP/1.1 200 OK
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>/uri-res/N2Ls?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a</title>
+	</head>
+	<body>
+		<h1>/uri-res/N2Ls?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a</h1>
+		<ul>
+			<li><a href="http://www.example.com/path/to/file.txt">http://www.example.com/path/to/file.txt</a></li>
+			<li><a href="http://something.test/mirror/thefile.txt">http://something.test/mirror/thefile.txt</a></li>
+		<ul>
+	</body>
+</html>
+```
+
 ## See Also
 * [IETF RFC-2169: A Trivial Convention for using HTTP in URN Resolution](https://tools.ietf.org/html/rfc2169) (June 1997)
 * [HTTP Extensions for a Content-Addressable Web](http://lists.w3.org/Archives/Public/www-talk/2001NovDec/0090.html) (October 2001)
