@@ -27,7 +27,7 @@ URNs express **names**, such as:
 
 URCs express **characteristics** — meta-data — about a URL, or URN.
 
-## Resolution Service
+## Resolution Services
 
 There are then 10 **resolution services**:
 **N2L**,
