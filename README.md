@@ -165,7 +165,7 @@ And even:
 
 “N2L” is an abbreviation for “Name To Location”.
 
-The `/uri-res/N2L?<query>` resolver takes a **name**, typically expressed as a **URN** (in the `<query>`), and return a **location**.
+The `/uri-res/N2L?<query>` resolver takes a **name**, typically expressed as a **URN** (in the `<query>`), and returns a **location**.
 
 The **location** is returned using the HTTP response `Location` header, with a HTTP 3xx class HTTP status response code.
 
