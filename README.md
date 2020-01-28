@@ -119,6 +119,48 @@ Or:
 
 Etc.
 
+## Resolution Services: More Examples
+
+All the examples provided so far just used `urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a` as the URN.
+
+Other types of URNs could be used too.
+
+For example:
+* `/uri-res/N2L?hash://sha256/c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Ls?hash://sha256/c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2R?hash://sha256/c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Rs?hash://sha256/c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2C?hash://sha256/c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Cs?hash://sha256/c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Ns?hash://sha256/c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+
+And:
+* `/uri-res/N2L?ni:///sha-256;SGVsbG8gd29ybGQh`
+* `/uri-res/N2Ls?ni:///sha-256;SGVsbG8gd29ybGQh`
+* `/uri-res/N2R?ni:///sha-256;SGVsbG8gd29ybGQh`
+* `/uri-res/N2Rs?ni:///sha-256;SGVsbG8gd29ybGQh`
+* `/uri-res/N2C?ni:///sha-256;SGVsbG8gd29ybGQh`
+* `/uri-res/N2Cs?ni:///sha-256;SGVsbG8gd29ybGQh`
+* `/uri-res/N2Ns?ni:///sha-256;SGVsbG8gd29ybGQh`
+
+And also:
+* `/uri-res/N2L?urn:hash::sha256:YBJV4S7CW6P73EZJCMCUG27YREYU4SR7V3AF5T74XN67GGWZ4UNA====`
+* `/uri-res/N2Ls?urn:hash::sha256:YBJV4S7CW6P73EZJCMCUG27YREYU4SR7V3AF5T74XN67GGWZ4UNA====`
+* `/uri-res/N2R?urn:hash::sha256:YBJV4S7CW6P73EZJCMCUG27YREYU4SR7V3AF5T74XN67GGWZ4UNA====`
+* `/uri-res/N2Rs?urn:hash::sha256:YBJV4S7CW6P73EZJCMCUG27YREYU4SR7V3AF5T74XN67GGWZ4UNA====`
+* `/uri-res/N2C?urn:hash::sha256:YBJV4S7CW6P73EZJCMCUG27YREYU4SR7V3AF5T74XN67GGWZ4UNA====`
+* `/uri-res/N2Cs?urn:hash::sha256:YBJV4S7CW6P73EZJCMCUG27YREYU4SR7V3AF5T74XN67GGWZ4UNA====`
+* `/uri-res/N2Ns?urn:hash::sha256:YBJV4S7CW6P73EZJCMCUG27YREYU4SR7V3AF5T74XN67GGWZ4UNA====`
+
+And even:
+* `/uri-res/N2L?magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Ls?magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2R?magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Rs?magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2C?magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Cs?magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+* `/uri-res/N2Ns?magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
+
 ## See Also
 * [IETF RFC-2169: A Trivial Convention for using HTTP in URN Resolution](https://tools.ietf.org/html/rfc2169) (June 1997)
 * [HTTP Extensions for a Content-Addressable Web](http://lists.w3.org/Archives/Public/www-talk/2001NovDec/0090.html) (October 2001)
