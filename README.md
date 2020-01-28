@@ -161,6 +161,34 @@ And even:
 * `/uri-res/N2Cs?magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
 * `/uri-res/N2Ns?magnet:?xt=urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a`
 
+## N2L
+
+“N2L” is an abbreviation for “Name To Location”.
+
+The `/uri-res/N2L?<query>` resolver takes a **name**, typically expressed as a **URN** (in the `<query>`), and return a **location**.
+
+The **location** is returned using the HTTP response `Location` header, with a HTTP 3xx class HTTP status response code.
+
+For example, the following HTTP response codes could be used:
+* 301 Moved Permanently
+* 302 Found
+* 303 See Other
+* 307 Temporary Redirect
+
+An example HTTP request & response might be:
+
+Example HTTP Request:
+```
+GET /uri-res/N2L?urn:sha256:c0535e4be2b79ffd93291305436bf889314e4a3faec05ecffcbb7df31ad9e51a HTTP/1.1
+Host: www.example.com
+```
+
+Example HTTP Response:
+```
+HTTP/1.1 307 Temporary Redirect
+Location: /path/to/file.txt
+```
+
 ## See Also
 * [IETF RFC-2169: A Trivial Convention for using HTTP in URN Resolution](https://tools.ietf.org/html/rfc2169) (June 1997)
 * [HTTP Extensions for a Content-Addressable Web](http://lists.w3.org/Archives/Public/www-talk/2001NovDec/0090.html) (October 2001)
